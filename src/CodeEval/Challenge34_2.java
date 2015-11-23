@@ -6,10 +6,8 @@ import java.io.IOException;
 
 /**
  * Created by etenbrinke on 17/11/15.
- *
+ * https://www.codeeval.com/open_challenges/34/
  */
-
-// https://www.codeeval.com/open_challenges/34/
 
 public class Challenge34_2 {
 
@@ -73,35 +71,3 @@ public class Challenge34_2 {
         }
     }
 }
-
-/**
- * 1,2,3,4,6;5
- * 2,4,5,6,9,11,15;20
-
- i=1
- j=2-5  1,4
-
- i=2
- j=3-5   2,3
-
- i=3
- j=4-5
-
- i=4
- j=5
-
- i=5
- j=--
-
- for (i=1; i <=length.numbers-1 ; i++)
-
- for (j=i+1; j <= length.numbers-1; j++)
-
- first = number[i]
- second = number[j]
- sum = first + second
-
- if (sum == to.int(sSum)) && (first =! second)
- storePair(first, second)
- */
-
