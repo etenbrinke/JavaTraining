@@ -6,7 +6,7 @@ import java.io.IOException;
 
 /**
  * Created by etenbrinke on 17/11/15.
- * 
+ *
  */
 
 // https://www.codeeval.com/open_challenges/34/
