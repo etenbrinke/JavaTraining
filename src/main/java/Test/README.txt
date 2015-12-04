@@ -49,4 +49,17 @@ Run Application class
 Step 10
 Browse : http://127.0.0.1:8080/
 
+Build and run from command line
+> setjdk 1.8 (in my case Project is using jdk 1.8)
+
+> cd ~/IdeaProjects/SpringBootTest/
+> mvn
+> mvn clean
+> mvn compile
+> mvn test
+> mvn package
+> java -jar target/myfirstservice-0.1.0.jar
+> curl localhost:8080
+Greetings from Spring Boot!
+
 
