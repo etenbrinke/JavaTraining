@@ -2,6 +2,7 @@ package SolarSystem;
 
 /**
  * Created by etenbrinke on 02/12/15.
+ * static function
  */
 public class Observe {
 
