@@ -13,8 +13,6 @@ public class TestCircle {
         System.out.println("The circle has radius of "
                 + c1.getRadius() + " and area of " + c1.getArea());
 
-        //System.out.println(c1.radius);
-
         // Declare and allocate an instance of class circle called c2
         //  with the given radius and default color
         Circle c2 = new Circle(2.0);
