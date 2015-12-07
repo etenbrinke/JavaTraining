@@ -14,7 +14,7 @@ public class TestCircle {
                 + c1.getRadius() + " and area of " + c1.getArea());
 
         // Declare and allocate an instance of class circle called c2
-        //  with the given radius and default color
+        // with the given radius and default color
         Circle c2 = new Circle(2.0);
         // Use the dot operator to invoke methods of instance c2.
         System.out.println("The circle has radius of "
