@@ -6,7 +6,7 @@ package JustMoreTraining;
 public class Eptest2 {
 
     public static void main(String[] args) {
-        System.out.println("JustMoreTraining");
+        System.out.println("JustMoreTraining!");
 
             int myNumber = 88;
             short myShort = 842;
