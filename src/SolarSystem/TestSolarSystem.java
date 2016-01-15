@@ -47,7 +47,24 @@ public class TestSolarSystem {
         System.out.println(m3.toString() + "\n");
 
         // downcast not possible, Jupiter is no Terrestrial Planet, this will create a java.lang.ClassCastException error at run-time
-        // TerrestrialPlanet m4 = (TerrestrialPlanet) jupiter;
+        //TerrestrialPlanet m4 = (TerrestrialPlanet) jupiter;
+
+        // program a safe cast
+        if (mars instanceof SolarPlanet) {
+            SolarPlanet solarPlanet = (SolarPlanet) mars;
+            System.out.println("You can cast mars to a SolarPlanet safely");
+        } else {
+            System.out.println("You can't cast mars to a SolarPlanet safely");
+        }
+        // output "You can cast mars to a SolarPlanet safely"
+
+        if (jupiter instanceof TerrestrialPlanet) {
+            TerrestrialPlanet terrestrialPlanet = (TerrestrialPlanet) jupiter;
+            System.out.println("You can cast jupiter to a TerrestrialPlanet safely");
+        } else {
+            System.out.println("You can't cast jupiter to a TerrestrialPlanet");
+        }
+        // output "You can't cast jupiter to a TerrestrialPlanet"
 
         // automatic upcast to Planet
         Observe.Watch(mars);
